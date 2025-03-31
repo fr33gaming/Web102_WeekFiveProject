@@ -73,7 +73,8 @@ const CatCard = () => {
         newButton.className = "attribute";
         newButton.id = "banned";
         newButton.innerText = currentBreed;
-        banList.appendChild(newButton);      
+        banList.appendChild(newButton);
+       
         
     } 
 
@@ -93,7 +94,15 @@ const CatCard = () => {
         newButton.className = "attribute";
         newButton.id = "banned";
         newButton.innerText = currentOrigin;
-        banList.appendChild(newButton);      
+        banList.appendChild(newButton); 
+        
+        const bannedButton = document.getElementById("banned");
+
+        if (bannedButton) {
+            bannedButton.addEventListener("click", () => {
+                bannedButton.remove();
+            });
+        }
         
     }
 
@@ -106,6 +115,8 @@ const CatCard = () => {
         banList.appendChild(newButton);      
         
     }
+
+    
 
     return (
         <div className="whole-card">
