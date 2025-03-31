@@ -5,38 +5,98 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 650px;
+  height: 900px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.cat-card-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
-.card {
-  padding: 2em;
+.attribute {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: fit-content;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
 }
 
-.read-the-docs {
-  color: #888;
+#discover {
+  margin-top: 20px;
 }
+
+.image-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.side-nav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ban-list {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
