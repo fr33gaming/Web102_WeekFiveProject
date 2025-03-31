@@ -46,7 +46,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='images/weekfive.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
     
-![](https://github.com/fr33gaming/Web102_WeekFive/blob/main/public/images/weekfive.gif)
+![](https://github.com/fr33gaming/Web102_WeekFiveProject/blob/main/public/images/weekfive.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -58,7 +58,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-I was stuck on the funcion that adds attributes to the ban list and then filters the breeds according to the banned attributes. 
+I was stuck on the function that adds attributes to the ban list and then filters the breeds according to the banned attributes. 
 
 ## License
 
